@@ -16,6 +16,12 @@ def result_calculate(size, lights, device):
         float: Consumo estimado
     """
     # Coeficientes usados no cálculo do consumo de energia
+    # ATIVIDADE 4 - ADICIONE UMA CONDIÇÃO PARA CASO O BOTÃO ESPECIAL SEJA CLICADO A FUNÇÃO RETORNE 150 (RESULTADO PERFEITO)
+    
+    
+    
+    ###################################################
+    
     home_coef = 100
     light_coef = 0.04
     devices_coef = 5
