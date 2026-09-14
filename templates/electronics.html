@@ -22,17 +22,29 @@
     <h2 class="main__title">Especifique o número de aparelhos que consomem eletricidade:</h2>
     <ul class="list" id="list">
       <li class="list__item">
-         <a href="{{ size ~ '/' ~ lights ~ '/' ~ '3' }}">
+         <a href="{{'/' ~ size ~ '/' ~ lights ~ '/' ~ '3' }}">
           <img class="item__img" src="/static/img/battery.svg" color="black" alt="battery">
           <span>3-5 aparelhos</span></a>
       </li>
       <!-- Assignment #3 CRIE OS CARDS DA QUANTIDADE DE APARELHOS DE 6-8 E 10+ -->
+      <li class="list__item">
+         <a href="{{'/' ~ size ~ '/' ~ lights ~ '/' ~ '6' }}">
+          <img class="item__img" src="/static/img/battery.svg" color="black" alt="battery">
+          <span>6-8 aparelhos</span></a>
+      </li>
 
+      <li class="list__item">
+         <a href="{{'/' ~ size ~ '/' ~ lights ~ '/' ~ '10' }}">
+          <img class="item__img" src="/static/img/battery.svg" color="black" alt="battery">
+          <span>10+ aparelhos</span></a>
+      </li>
 
+      <li class="list__item">
+         <a href="{{'/' ~ size ~ '/' ~ lights ~ '/' ~ '11' }}">
+          <img class="item__img" src="/static/img/leafs.png" color="black" alt="battery">
+          <span>Nossa casa ecológica</span></a>
+      </li>
 
-
-
-      
       <!--  -->
     </ul>
     {% endblock %}

@@ -19,6 +19,8 @@ def result_calculate(size, lights, device):
     # ATIVIDADE 4 - ADICIONE UMA CONDIÇÃO PARA CASO O BOTÃO ESPECIAL SEJA CLICADO A FUNÇÃO RETORNE 150 (RESULTADO PERFEITO)
     
     
+        
+        
     
     ###################################################
     
