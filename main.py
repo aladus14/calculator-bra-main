@@ -17,7 +17,7 @@ def result_calculate(size, lights, device):
     """
     # Coeficientes usados no cálculo do consumo de energia
     
-# ATIVIDADE 4 - ADICIONE UMA CONDIÇÃO PARA CASO O BOTÃO ESPECIAL SEJA CLICADO A FUNÇÃO RETORNE 150 (RESULTADO PERFEITO)
+##########################################################################################################################################################
     
     if device == 11:
         return 150
